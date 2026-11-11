@@ -1,5 +1,7 @@
 # Compass Cardinals
 
+<img src="media/icon.png" alt="Compass Cardinals icon" width="128" height="128">
+
 Buy the $100 passive compass upgrade in Modded Shop.
 
 ## Install
