@@ -1,0 +1,28 @@
+{
+  "id": "compass-cardinals",
+  "kind": "native",
+  "version": "0.2.0",
+  "backlog": "I03",
+  "feature_dependencies": [
+    "shop-framework",
+    "hints-framework"
+  ],
+  "gameplay": true,
+  "play_help": [
+    "Buy the $100 passive compass upgrade in the equipment shop.",
+    "Cardinal bearings appear on the compass while on foot; no held slot required.",
+    "Native purchase/equipment/hints integration implemented; gameplay checks deferred."
+  ],
+  "requires_apis": [
+    {
+      "api": "shop-framework.shop",
+      "abi": 1,
+      "min_size": 56
+    },
+    {
+      "api": "hints-framework.hints",
+      "abi": 1,
+      "min_size": 24
+    }
+  ]
+}
